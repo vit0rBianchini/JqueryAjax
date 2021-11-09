@@ -1,0 +1,80 @@
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body, form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+form {
+    justify-content: center;
+    width: 80vw;
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+    margin: 10px;
+    width: 20vw;
+    max-width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+
+p{
+    font-size: 14px;
+}
+
+.input_sexo{
+    display: flex;
+    align-items: center;
+}
+
+.input_sexo > p {
+    margin: 0 5px;
+}
+
+button {
+    align-self: center;
+    justify-self: center;
+    margin-top: 20px;
+
+    width: 120px;
+    height: 25px;
+    background-color: darkslateblue;
+
+    border-radius: 5px;
+    border: 1px solid black;
+    color: aliceblue;
+    outline: none;
+}
+
+table{
+    border: 1px black solid;
+    border-collapse: collapse;
+    margin: 10px;
+    margin-top: 30px;
+}
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+tr:nth-child(n){
+    background-color: rgb(180, 176, 206);
+
+}
+tr:nth-child(2n){
+    background-color: aliceblue;
+}
+tr:first-child{
+    background-color: rgb(88, 88, 88);
+    color: aliceblue;
+
+}
+
+
